@@ -1,0 +1,106 @@
+{
+  "projectType": "saas",
+  "projectName": "Blackbox",
+  "projectDescription": "A full-stack experimental platform featuring AI modules, interactive simulations, hotel booking system, and creative development tools.",
+  "theme": "aspen",
+  "primaryColor": "#10b981",
+  "lightColor": "#34d399",
+  "darkColor": "#059669",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "installation"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/ai-modules",
+              "features/experiments",
+              "features/booking-platform",
+              "features/systems",
+              "features/tools"
+            ]
+          },
+          {
+            "group": "User Guide",
+            "pages": [
+              "guides/booking-hotels",
+              "guides/exploring-experiments",
+              "guides/using-ai-features",
+              "guides/internationalization"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "api/overview",
+              "api/authentication"
+            ]
+          },
+          {
+            "group": "Endpoints",
+            "pages": [
+              "api/hotels",
+              "api/bookings",
+              "api/stripe"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Development",
+        "groups": [
+          {
+            "group": "Setup",
+            "pages": [
+              "development/environment",
+              "development/database",
+              "development/frontend-setup",
+              "development/backend-setup"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "architecture/overview",
+              "architecture/frontend",
+              "architecture/backend",
+              "architecture/data-models"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "AI-powered modules with interactive animations",
+    "Hotel booking simulation platform with Stripe integration",
+    "Experimental projects and prototypes showcase",
+    "Multi-language support (i18n)",
+    "Smooth animations with GSAP and Framer Motion",
+    "Modern React architecture with TanStack Router and Query",
+    "MongoDB-based data persistence",
+    "RESTful API with Express and TypeScript"
+  ],
+  "publicApiSurface": [
+    "GET /api/hotels - Retrieve all hotels",
+    "GET /api/hotels/:id - Get hotel by ID",
+    "GET /api/bookings - Retrieve all bookings",
+    "GET /api/bookings/:id - Get booking by ID",
+    "POST /api/stripe/create-checkout-session - Create Stripe checkout",
+    "POST /api/stripe/webhook - Handle Stripe webhooks"
+  ]
+}
